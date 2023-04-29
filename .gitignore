@@ -2,3 +2,5 @@ credit_applications.csv
 customers.csv
 .ipynb_checkpoints/
 test_the feature.csv
+predictions_on_test_set.csv
+predictions_on_test_set_lgbm.csv
