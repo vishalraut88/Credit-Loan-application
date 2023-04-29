@@ -1,0 +1,8 @@
+1. New features if possible
+	Max -ve value of max balance
+	Has the client previously taken the credit or what is ratio of credit taken/credit not taken
+	if max balance is always positive then check max(volume_credit_trx)
+2. Try different algorithms and hyperparameters	
+3. Missing data treatment
+4. Threshold values
+5. Slides
