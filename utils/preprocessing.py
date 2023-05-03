@@ -9,24 +9,7 @@ class preprocessing:
         df = pd.read_csv(path)
         return df
 
-    
-    def scale_data(self,data,type_of_scaler=1):
-        """
-        1- Scale data using Standardscaler
-        2- Scale data using MinMaxscaler
-        """
-        if(self.type_of_scaler==1):
-            print("standard scaling")
-            scaler=StandardScaler()
-            data = scaler.fit_transform(data)
-            return data
-        if(self.type_of_scaler==2):
-            print("Minmax scaling")
-            scaler=MinmaxScaler()
-            data = scaler.fit_transform(data)
-            return data
-            
-        
+         
         
     def missing_values_intable (self,df,threshold=100):
         missing_values = df.isnull().sum()
